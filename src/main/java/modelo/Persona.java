@@ -13,6 +13,10 @@ public class Persona {
     private int mesNacimiento;
     private int anioNacimiento;
 
+
+    public Persona() {
+    }
+
     public Persona(String nombre, String direccion, String telefono,
                    int diaNacimiento, int mesNacimiento, int anioNacimiento) {
         this.nombre          = nombre;
