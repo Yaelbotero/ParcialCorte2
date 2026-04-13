@@ -40,7 +40,7 @@ public class ColegioVista extends JFrame {
         setLayout(new BorderLayout(8, 8));
 
         //Panel Profesor
-        JPanel panelP = new JPanel(new GridLayout(5, 4, 5, 5));
+        JPanel panelP = new JPanel(new GridLayout(6, 4, 5, 5));
         panelP.setBorder(BorderFactory.createTitledBorder("Datos del Profesor"));
 
         panelP.add(new JLabel("Nombre:"));
@@ -88,7 +88,7 @@ public class ColegioVista extends JFrame {
         panelP.add(new JLabel(""));
 
         //Panel Estudiante
-        JPanel panelE = new JPanel(new GridLayout(4, 4, 5, 5));
+        JPanel panelE = new JPanel(new GridLayout(6, 4, 5, 5));
         panelE.setBorder(BorderFactory.createTitledBorder("Datos del Estudiante"));
 
         panelE.add(new JLabel("Nombre:"));
